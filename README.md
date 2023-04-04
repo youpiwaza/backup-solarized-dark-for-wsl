@@ -35,4 +35,4 @@ KO / You're probably better off just using this [pure registry version](https://
 
 Tout copier coller dans les valeurs RGB des 16 boites de couleurs (Propriétés > Couleurs) 🙈 **sans tenir compte de l'aperçu**.
 
-![Maj couleurs WSL 2023](./images/backup-solarized-dark-for-wsl\images\maj-couleurs-wsl-2023.png)
+![Maj couleurs WSL 2023](./images/maj-couleurs-wsl-2023.png)
