@@ -111,3 +111,11 @@ Si vraiment cela ne fonctionne plus.
 Tout copier coller dans les valeurs RGB des 16 boites de couleurs (Propriétés > Couleurs) 🙈 **sans tenir compte de l'aperçu**.
 
 ![Maj couleurs WSL 2023](./images/maj-couleurs-wsl-2023.png)
+
+---
+
+## 💾🗚 Add backup for font
+
+Originally from [zsh theme > powerlevel10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k).
+
+`MesloLGS NF` font backup in the [fonts folder](./fonts).
