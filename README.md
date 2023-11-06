@@ -16,6 +16,22 @@ Adapted the Ubuntu-fier for use with Solarized Dark, and took away the font inst
 
 ---
 
+## 🐛 Windows 11 / Script KO
+
+Si l'exécution du script ne fonctionne pas, et que le lancement du script `.ps1` renvoie une erreur via powershell, adapter en fonction de l'erreur.
+
+~`exécution de script est désactivée sur ce système` :
+
+[Résolution](https://www.pcastuces.com/pratique/astuces/3908.htm) :
+
+1. Lancer Powershell en mode administrateur
+2. `Set-ExecutionPolicy RemoteSigned`
+3. Appuyer sur "O" afin d'autoriser les scripts
+4. Valider
+5. Relancer le script
+
+---
+
 ## Max > Correspondances couleurs
 
 | SOLARIZED | HEX     | ANSI      | TERMCOL   | cmd.exe     | PowerShell  | ColorTable | DWORD    | RGB pour c/c shame | DECIMAL  |
