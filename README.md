@@ -4,6 +4,8 @@ Just a backup in case the [original repo](https://github.com/nsilvestri/solarize
 
 Comment ? Télécharger le repo, et lancer `one-click-through-powershell-colors.vbs`. Relancer le terminal (WSL Ubuntu). C'tout.
 
+🚨 *Le one clic appelle la modification de clé de registres `XXX.ps1`, il faut donc le lancer depuis le dossier du repo.*
+
 📝 `one-click-through-powershell-colors.vbs` > Evite de devoir lancer powershell en admin et exécuter le script à la main.
 
 🦄 Pour wam : `_one-click-through-powershell-colors-fonts-layout.vbs`, rajoute la config de police `MesloLGS NF` & taille de terminal 150 x 30.
@@ -59,7 +61,8 @@ Si l'exécution du script ne fonctionne pas, et que le lancement du script `.ps1
 
 Ca a re-sauté, on creuse et on fait ça propre.
 
-✅🐛FIX: Le nom de la clé dans le registre a changé : ne contient plus `*ubuntu*`, est devenu **"WindowsSubsystemForLinux"**.
+- ✅🐛FIX: Le nom de la clé dans le registre a changé : ne contient plus `*ubuntu*`, est devenu **"WindowsSubsystemForLinux"**.
+- ✅🐛FIX: 10/2024 Le nom de la clé dans le registre a changé : ne contient plus `*WindowsSubsystemForLinux*`, est devenu **"Ubuntu_"**. C'est hilarant.
 
 📝 Pistes supplémentaires repo [WSL Ubuntu bash console colors](https://github.com/MuTLY/wsl-ubuntu-bash-colors) > le fichier `.ps1` est plus abouti.
 
